@@ -15,26 +15,18 @@ Download: https://github.com/KuromeSan/GayMaker/releases/download/v1.7.6/GayMake
 Fixed a bug where /SH argument would allways = False regardles of what was set in project file
 Fixed automatic updater
 
-Download: https://github.com/KuromeSan/GayMaker/releases/download/V1.7.5/GayMaker.1.7.5.zip
-
 # 1.7.3    
 Fixed a bug where if you never opened "Global Game Settings" in GameMaker   
 Then GayMaker would crash (IT WAS A STRANGE PARSER DIFFERNTAL xD)   
 See issue #9    
 
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.7.3.zip
-
 # 1.7.2    
 Fixed a bug where StandardError wasnt shown in output properly    
 No longer requires %SCE_PSP2_SDK_DIR% to be defined when building YYC.   
-    
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.7.2.zip   
      
 # 1.7.1    
 Fixed a bug where Errors from GMAssetCompiler wouldnt show in the output      
 Now displays GMAssetCompiler and YYC Compile errors in a messagebox.    
-
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.7.1.zip    
 
 # 1.7  
 Added a "Preferences" option
@@ -44,38 +36,27 @@ Added the ability to not convert PNG's to indexed color
 Added the ability to use YYC! (Requires some efforts to do though)   
 Added a seecret easter egg (try to find it!)  
 
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.7.zip
-
 # 1.6    
 Added "Interpolate colors between pixels" to Global Game Settings  
 Added "Scaling options" (Full Scale) and (Keep Aspect Ratio) options to Global Game Settings  
 Added "Download More RAM" feature to allow you to allocate more memory to your application  
   
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.6.zip
-  
 # 1.5.2
 No-longer reliant on pngquant.exe (close #6)  
 Added Early-Access builds to the Version Manager  
 
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.5.2.zip  
-
 # 1.5.1
 Added version selection and version selector. - you can now use ANY version of GameMaker:Studio Since 1.4.1468.  
 Files are downloaded from yoyo's servers!  
-  
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.5.1.zip  
   
 # 1.5
 Under "Global Game Settings" you can now simply press <ENTER> to apply settings, or <ESC> to cancel   
 Disabled Windows Automatic DPI Scaling (see issue #8 to understand why i did this)    
 Now using unmodified GMAssetCompiler. and simply ""Obtaining permission to execute"" (resolved #7)  
 Fixed issue #5   
-   
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.5.zip  
 
 # 1.4.9999  
-Fixes issue #4.  
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.4.9999.zip  
+Fixes issue #4.
 
 # 1.4  
 Inside "Global Game Settings we have:   
@@ -87,23 +68,18 @@ Other changes:
 Program will check for updates   
 Program will remember what images you last used (HKLU/Software/GayMaker)   
 This system software update improves system performance.    
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.4.zip  
   
 # 1.3  
 Shader's can now be used, however you have to provide a copy of "psp2cgc.exe" yourself. - #3 can now be closed.  
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.3.zip  
   
 # 1.2  
 UPDATED TO GAMEMAKER STUDIO 1.4.9999 - THANKS CELESTEBLUE FOR SOURCING THE EXPORT MODULE!!!  
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.2.zip  
   
 # 1.1
 Fixes Issue #1 and Issue #2  
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker%201.1.zip  
 
 # 1.0
 FIRST RELEASE WEW  
-Download: https://bitbucket.org/SilicaAndPina/gaymaker/downloads/GayMaker.zip    
 
 # GayMaker  
 Homebrew GM:S Export tool  
