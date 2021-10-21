@@ -22,7 +22,7 @@ namespace GayMaker
 {
     public partial class GayMaker : Form
     {
-        public String CurrentVersion = "1.7.6";
+        public String CurrentVersion = "1.7.7";
         private string stderr = "";
 
         private bool HasShaders = false;
@@ -45,7 +45,7 @@ namespace GayMaker
 
         private void EE1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Created in 26/01/2019 by SilicaAndPina\nI like to see cute girls die!\n\nCongratulations! you found the easter egg in my software\nI wonder how long before it gets found?\nTweet #GAYMAKER for bragging rights!","Cute Girls Dying");
+            MessageBox.Show("Fixed in 21/10/2021 by MDashK\nCreated in 26/01/2019 by SilicaAndPina\nI like to see cute girls die!\n\nCongratulations! you found the easter egg in my software\nI wonder how long before it gets found?\nTweet #GAYMAKER for bragging rights!","Cute Girls Dying");
             Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
         }
 
@@ -214,11 +214,11 @@ namespace GayMaker
             string args;
             if(HasShaders && !YYC)
             {
-                args = "/c /m=psvita /config=\"Default\" /tgt=2147483648 /obob=True /obpp=False /obru=True /obes=False /i=3 /cvm /tp="+TP.InnerText+" /mv=1 /iv=0 /rv=0 /bv="+ versionBit +" /sh=" + SH.InnerText +" / psvitasdk=\""+Directory.GetCurrentDirectory()+"\\psvitasdk\" /gn=\"" + AppName.Text + "\" /o=\"" + Dst + "\" \"" + Src + "\"";
+                args = "/c /m=psvita /config=\"Default\" /tgt=2147483648 /obob=True /obpp=False /obru=True /obes=False /i=3 /cvm /tp="+TP.InnerText+" /mv=1 /iv=0 /rv=0 /bv="+ versionBit +" /sh=" + SH.InnerText +" /psvitasdk=\""+Directory.GetCurrentDirectory()+"\\psvitasdk\" /gn=\"" + AppName.Text + "\" /o=\"" + Dst + "\" \"" + Src + "\"";
             }
             else 
             {
-                args = "/c /m=psvita /config=\"Default\" /tgt=2147483648 /obob=True /obpp=False /obru=True /obes=False /i=3 /cvm /tp="+TP.InnerText+ " /mv=1 /iv=0 /rv=0 /bv=" + versionBit +" /sh=" + SH.InnerText +" / gn=\"" + AppName.Text + "\" /o=\"" + Dst + "\" \"" + Src + "\"";
+                args = "/c /m=psvita /config=\"Default\" /tgt=2147483648 /obob=True /obpp=False /obru=True /obes=False /i=3 /cvm /tp="+TP.InnerText+ " /mv=1 /iv=0 /rv=0 /bv=" + versionBit +" /sh=" + SH.InnerText +" /gn=\"" + AppName.Text + "\" /o=\"" + Dst + "\" \"" + Src + "\"";
             }
             if(YYC)
             {
