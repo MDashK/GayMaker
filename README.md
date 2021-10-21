@@ -1,3 +1,6 @@
+# 1.7.7       
+Bugfix (now it compiles correctly with shaders)
+
 # 1.7.6       
 Fixed an issue where it was possible to enter invalid characters into Title ID Feild           
 Fixed some UI Elements            
