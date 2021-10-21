@@ -1,6 +1,8 @@
 # 1.7.7       
 Bugfix (now it compiles correctly with shaders)
 
+Download: https://github.com/MDashK/GayMaker/releases/download/v1.7.7/GayMaker.1.7.7.zip
+
 # 1.7.6       
 Fixed an issue where it was possible to enter invalid characters into Title ID Feild           
 Fixed some UI Elements            
